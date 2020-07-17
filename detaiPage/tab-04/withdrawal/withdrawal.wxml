@@ -1,0 +1,33 @@
+<header id='header' tittle="{{tittle}}"></header>
+<view style="{{'padding-top: ' + navigationBarHeight}}" class="container-wrap">
+  <view class="widthDrow-wrap">
+    <view class="widthDrow-wrap-container">
+      <view class="top-wrap tittle">
+        <text>收款人</text>
+        <text class="name">保险顾问超哥</text>
+      </view> 
+      <view class="tittle">提现金额</view>
+      <view class="input-wrap">
+      <input class="input" placeholder-class="placeholder-money" placeholder="¥0.00"></input>
+
+      </view>
+      <view class="small-tittle">
+        <text>当前可提现金额¥455.00</text>
+        <text class="btn-tittle">全部提现</text>
+      </view>
+      <view class="btn-wrap">
+        <view class="btn">提现</view>
+      </view>
+          <view class="btn-wrap btn-wrap-top">
+        <view class="btn grey">取消</view>
+      </view>
+    </view>
+
+    <view class="explain">
+      <view>说明：</view>
+      <view class="p-item">1. 余额提现需要扣除1%的服务费</view>
+      <view class="p-item">2. 由平台代扣XXX所得税</view>
+    </view>
+    
+  </view>
+</view>

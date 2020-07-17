@@ -1,0 +1,55 @@
+
+<header id='header' tittle="{{tittle}}"></header>
+<view class="renwu-container" style="{{'padding-top: ' + navigationBarHeight}}">
+  <view class="top-wrap clearfix">
+    <view class="float-left">
+      <text class="tittle">接单列表</text>
+      <text class="small-titlle"></text>
+    </view>
+    <view class="float-right tittle">训练营地－0980</view>
+  </view>
+
+  <view class="img-wrap">
+    <view class="tittle">推广图片</view>
+    <view class="image-con">
+      <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+    </view>
+  </view>
+
+  <view class="tips-detail">
+    <view class="tips-item">
+      <text class="tittle">引流目标</text>
+      <text class="small-tittle">100位访客／每个任务</text>
+    </view>
+      <view class="tips-item">
+      <text class="tittle">截止时间</text>
+      <text class="small-tittle">2020-12-23</text>
+    </view>
+      <view class="tips-item">
+      <text class="tittle">任务奖励</text>
+      <text class="small-tittle">10元／每个任务</text>
+    </view>
+      <view class="tips-item">
+      <text class="tittle">发布任务数</text>
+      <text class="small-tittle">5个</text>
+    </view>
+      <view class="tips-item">
+      <text class="tittle">合计充值</text>
+      <text class="small-tittle">100元</text>
+    </view>
+
+    <view class="btn-wrap">
+      <text class="btn">微信支付</text>
+    </view>
+    <view class="btn-wrap btn-wrap-top">
+      <text class="btn">支付宝支付</text>
+    </view>
+  </view>
+
+ 
+</view>
+
+<!-- <logo id="logo"></logo> -->
+<!-- <Tayron id="Tayron" wx:if="{{current.url == '/template/Tayron/Tayron'}}"></Tayron> -->
+<!--  -->
+<!-- <loading loading="{{loading}}"></loading> -->

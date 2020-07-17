@@ -1,0 +1,54 @@
+<!--pages/list/list.wxml-->
+<header id='header' tittle="{{tittle}}"></header>
+<!-- <import src="../../../modules/chat-page/chat-item.wxml"/> -->
+<!-- <import src="../../../modules/chat-page/chat-page-status.wxml"/> -->
+<view style="{{'padding-top: ' + navigationBarHeight}}" class="chat-container">
+    <view class="chat-wrap clearfix">
+        <view class="chat-item item-friend">
+            <view class="img-wrap">
+                <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+            </view>
+            <view class="msg-wrap">你好，请问有什么需要帮忙吗</view>
+        </view>
+        <view class="chat-item item-user">
+            <view class="img-wrap">
+                <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+            </view>
+            <view class="msg-wrap">你好吗</view>
+        </view>
+        <view class="tips">喵了个咪给你评价了“真好吃”</view>
+        <view class="time">05-29 18:00</view>
+				<view class="chat-item item-friend">
+					<view class="img-wrap">
+							<image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+					</view>
+					<view class="msg-wrap">你好，请问有什么需要帮忙吗</view>
+        </view>
+        <view class="time">05-29 18:00</view>
+				<view class="chat-item item-friend">
+					<view class="img-wrap">
+							<image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+					</view>
+					<view class="msg-wrap">你好，请问有什么需要帮忙吗</view>
+        </view>
+				 <view class="tips">喵了个咪接受了你的红包</view>
+				  <view class="tips">喵了个咪买了你的广告位</view>
+    </view>
+
+
+</view>
+
+
+<chat-input
+        id="chatInput"
+        min-voice-time="{{1}}"
+        max-voice-time="{{60}}"
+        start-time-down="{{54}}"
+        tabBarHeight="{{0}}"
+        format="mp3"
+        extra-array="{{extraArr}}"
+        bind:extraClickEvent="onExtraClickEvent"
+        bind:extraItemClickEvent="onExtraItemClickEvent"
+        bind:voiceRecordEvent="onVoiceRecordEvent"
+        bind:sendMessageEvent="onSendMessageEvent"></chat-input>
+

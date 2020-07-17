@@ -1,0 +1,117 @@
+
+.kehu-container{
+  padding-bottom: 260rpx;
+}
+.kehu-container .top-bg{
+  height: 200rpx;
+  background: #10cbd2;
+}
+.tab-wrap {
+  margin: -100rpx 10px 10px 10px;
+  background: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+  border-radius: 10px;
+  border-bottom: 1px solid #efefef;
+}
+.tab-wrap .tab-item{
+  display: inline-block;
+  width: 50%;
+}
+.tab-wrap .tab-item .number{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  padding-bottom: 4px;
+}
+.tab-wrap .tab-item .tips{
+  font-size: 28rpx;
+  color: #333;
+}
+.kehu-list{
+  background: #fff;
+}
+.kehu-list .kehu-item{
+  padding-left: 140rpx;
+  padding-right: 10PX;
+  box-sizing: border-box;
+  position: relative;
+  padding-bottom: 24px;
+  padding-top: 10px;
+  border-bottom: 1px solid #efefef;
+}
+.kehu-list .kehu-item .avitor{
+  position: absolute;
+  top: 12px;
+  left: 10px;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.kehu-list .kehu-item  .content-wrap .tittle-wrap{
+  margin: 6px 0;
+}
+.kehu-list .kehu-item  .content-wrap .tittle-wrap .tittle{
+  font-size: 12px;
+  color: #333;
+}
+.kehu-list .kehu-item  .content-wrap .tittle-wrap .small-tittle{
+  font-size: 24rpx;
+  color: #b3b3b3;
+  margin-top: 4px;
+}
+
+.kehu-list .kehu-item .content-wrap .cont-wrap{
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.kehu-list .kehu-item .content-wrap .cont-wrap .image-wrap{
+  position: absolute;
+  right: 10px;
+  top: 2px;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.kehu-list .kehu-item .content-wrap .cont-wrap .cont-item{
+  padding-right: 160rpx;
+  box-sizing: border-box;
+}
+.kehu-list .kehu-item .content-wrap .cont-wrap .time{
+  font-size: 26rpx;
+  color: #333;
+  padding-bottom: 2px;
+}
+.kehu-list .kehu-item .content-wrap .cont-wrap .label-tittle{
+  font-size: 30rpx;
+  color: #333;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  position: relative;
+  padding-left: 6px;
+  box-sizing: border-box;
+}
+.kehu-list .kehu-item .content-wrap .cont-wrap .label-tittle::before{
+  display: inline-block;
+  content: "";
+  width: 3px;
+  height: 10px;
+  background: #10cbd2;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+.kehu-list .kehu-item .content-wrap .cont-wrap .label-tittle.red::before{
+  background: #fd5418;
+}
+.kehu-list .kehu-item .content-wrap .cont-wrap .label-tittle.yellow::before{
+  background: #fed942;
+}

@@ -1,0 +1,10 @@
+
+{
+  "navigationBarTitleText": "位置",
+  "usingComponents": {
+
+    "header": "/Components/header/header",
+    "search": "/Components/search/search"
+
+  }
+}

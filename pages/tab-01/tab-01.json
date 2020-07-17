@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+
+    "header3": "/Components/header3/header3",
+
+    "loading": "/Components/loading/loading",
+
+    "swiperWrap": "/template/swiper/swiper"
+   
+  }
+}

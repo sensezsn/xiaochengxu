@@ -1,0 +1,47 @@
+<view class='tab-bar'>
+	<!-- 发现 -->
+	<view class='tab-bar-index' data-index='0' data-path='{{list[0].pagePath}}' bindtap='tab_bar_index'>
+		<view class='tab-bar-icon'>
+			<image src='{{selected == 0 ? list[0].selectedIconPath : list[0].iconPath}}' class='tab-bar-img'></image>
+			<view class='tab-bar-tmp'></view>
+			<view class='tab-bar-text' style='color:{{selected == 0 ? selectedColor : color}}'>主页</view>
+		</view>
+	</view>
+
+	<!-- 专栏 -->
+	<view class='tab-bar-index' data-index='1' data-path='{{list[1].pagePath}}' bindtap='tab_bar_index'>
+		<view class='tab-bar-icon'>
+			<image src='{{selected == 1 ? list[1].selectedIconPath : list[1].iconPath}}' class='tab-bar-img'></image>
+			<view class='tab-bar-tmp'></view>
+			<view class='tab-bar-text' style='color:{{selected == 1 ? selectedColor : color}}'>任务</view>
+		</view>
+	</view>
+
+	<!-- 发布 -->
+	<view class='tab-bar-index-add' data-index='4' data-path='{{list[4].pagePath}}' bindtap='tab_bar_index'>
+		<view class='tab-bar-icon_add {{selected == 4 && "selected"}}'>
+			<!-- <image class='tab-bar-img-add' src='{{addImgPath}}'></image> -->
+			<image src='{{selected == 4 ? list[4].selectedIconPath : list[4].iconPath}}' class='tab-bar-img-add'></image>
+			<view class='tab-bar-text message-text' style='color:{{selected == 4 ? selectedColor : color}}'>消息</view>
+		</view>
+	</view>
+
+	<!-- 客户 -->
+	<view class='tab-bar-index' data-index='2' data-path='{{list[2].pagePath}}' bindtap='tab_bar_index'>
+		<view class='tab-bar-icon'>
+			<image src='{{selected == 2 ? list[2].selectedIconPath : list[2].iconPath}}' class='tab-bar-img'></image>
+			<view class='tab-bar-tmp'></view>
+			<view class='tab-bar-text' style='color:{{selected == 2 ? selectedColor : color}}'>客户</view>
+		</view>
+	</view>
+
+	<!-- 收益 -->
+	<view class='tab-bar-index' data-index='3' data-path='{{list[3].pagePath}}' bindtap='tab_bar_index'>
+		<view class='tab-bar-icon'>
+			<image src='{{selected == 3 ? list[3].selectedIconPath : list[3].iconPath}}' class='tab-bar-img'></image>
+			<view class='tab-bar-tmp'></view>
+			<view class='tab-bar-text' style='color:{{selected == 3 ? selectedColor : color}}'>收益</view>
+		</view>
+	</view>
+
+</view>

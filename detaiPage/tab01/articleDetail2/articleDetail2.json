@@ -1,0 +1,9 @@
+
+{
+  "navigationBarTitleText": "详情",
+  "usingComponents": {
+
+    "header": "/Components/header/header",
+    "search": "/Components/search/search"
+  }
+}

@@ -1,0 +1,25 @@
+
+var keys = [
+  '长×宽×高(mm)',
+  '整备质量(kg)',
+  '最大输出功率(kW/rpm)',
+  '最大输出扭矩(Nm/rpm)',
+  '驱动电机峰值功率(kW/rpm)',
+  '驱动电机峰值转矩(N·m/rpm)',
+  '额定功率(kW/rpm)',
+  '行李箱容积(L)',
+]
+
+module.exports = {
+  // 格式化配置表值显示
+  valstringify: function (item) {
+    // 判断价格
+    if (item.value.indexOf('¥') == 0 && Number(item.value.replace('¥', ''))) {
+      return '¥' + Number(item.value.replace('¥', '')).toLocaleString('zh-CN', { minimumIntegerDigits: 3, useGrouping: true })
+    }
+    // 整备质量特殊处理
+    if (keys.indexOf(item.key) >= 0) return item.value
+
+    return item.value.split(',').join('\n')
+  }
+}

@@ -1,0 +1,153 @@
+
+<header id='header' tittle="{{tittle}}"></header>
+<view class="renwu-container" style="{{'padding-top: ' + navigationBarHeight}}">
+	<view class="selectTab">
+		<view class="tabItem {{tabIndex == 0 ? 'active': ''}}" data-index='0' bindtap="selectTab">我领取的任务</view>
+		<view class="tabItem {{tabIndex == 1 ? 'active': ''}}" data-index='1'  bindtap="selectTab">我发布的任务</view>
+	</view>
+	<view class="container-wrap">
+		<view class="tab0" data-index="0" wx:if="{{tabIndex == 0}}">
+			<view class="tab0-item">
+				<view class="top-wrap">
+					<view class="img-wrap">
+						<image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+					</view>
+					<view class="content-wrap">
+						<view class="tittle">动漫IP学习训练营－0704</view>
+						<view class="small-tittle">发布人 &nbap; 保险顾问超哥</view>
+						<view class="small-tittle">
+							距离任务结束<text class="red">2天12时23分</text>
+						</view>
+						<view class="small-tittle">
+							任务奖励<text class="red">200元</text>
+						</view>
+					</view>
+				</view> 
+				<view class="progress-wrap clearfix">
+					<view class="progress-tittle">任务完成</view>
+					<view class="progress">
+						<text class="bar"></text>
+						<text class="bar-tips">80%</text>
+					</view>
+				</view>
+				<image class="image-wrap-out" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+				<view class="btn-wrap"  bindtap="toDetail3">
+					<text class="btn"  >分享做任务111</text>
+				</view>
+			</view>
+			<view class="tab0-item">
+				<view class="top-wrap">
+					<view class="img-wrap">
+						<image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+					</view>
+					<view class="content-wrap">
+						<view class="tittle">动漫IP学习训练营－0704</view>
+						<view class="small-tittle">发布人 &nbap; 保险顾问超哥</view>
+						<view class="small-tittle">
+							距离任务结束<text class="red">2天12时23分</text>
+						</view>
+						<view class="small-tittle">
+							任务奖励<text class="red">200元</text>
+						</view>
+					</view>
+				</view> 
+				<view class="progress-wrap clearfix">
+					<view class="progress-tittle">任务完成</view>
+					<view class="progress">
+						<text class="bar"></text>
+						<text class="bar-tips">80%</text>
+					</view>
+				</view>
+				<image class="image-wrap-out" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+				<view class="btn-wrap">
+					<text class="btn" bindtap="toDetail4">我也要发红包任务</text>
+				</view>
+			</view>
+			<view class="tab0-item">
+				<view class="top-wrap">
+					<view class="img-wrap">
+						<image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+					</view>
+					<view class="content-wrap">
+						<view class="tittle">动漫IP学习训练营－0704</view>
+						<view class="small-tittle">发布人 &nbap; 保险顾问超哥</view>
+						<view class="small-tittle">
+							距离任务结束<text class="red">2天12时23分</text>
+						</view>
+						<view class="small-tittle">
+							任务奖励<text class="red">200元</text>
+						</view>
+					</view>
+				</view> 
+				<view class="progress-wrap clearfix">
+					<view class="progress-tittle">任务完成</view>
+					<view class="progress">
+						<text class="bar"></text>
+						<text class="bar-tips">80%</text>
+					</view>
+				</view>
+				<image class="image-wrap-out" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+				<view class="btn-wrap">
+					<text class="btn" bindtap="toDetail5">vip会员</text>
+				</view>
+			</view>
+		</view>
+		<view class="tab1" data-index="1"  wx:if="{{tabIndex == 1}}">
+			<view class="add-wrap" bindtap="sendNew">
+				<text class="add-icon">+</text>
+				<text class="add-tittle">创建新任务</text>
+			</view>
+			<view class="tab1-item content-wrap">
+				<view class="tittle"> 动漫IP学习训练营－0704</view>
+				<view class="small-tittle">
+					距离训练营结束还有<text class="red"> 2天13时5分</text>
+				</view>
+				<image class="image-wrap-out" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+				<view class="tips-wrap">
+					<text class="small-tittle">36人已领取</text>
+					<text class="small-tittle"><text class="red">任务奖励100元</text></text>
+					<text class="small-tittle">流量目标2500</text>
+				</view>
+				<view class="btn-wrap">
+					<text class="btn">分享做任务</text>
+				</view>
+			</view> 
+				<view class="tab1-item content-wrap">
+				<view class="tittle"> 动漫IP学习训练营－0704</view>
+				<view class="small-tittle">
+					距离训练营结束还有<text class="red"> 2天13时5分</text>
+				</view>
+				<image class="image-wrap-out" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+				<view class="tips-wrap">
+					<text class="small-tittle">36人已领取</text>
+					<text class="small-tittle"><text class="red">任务奖励100元</text></text>
+					<text class="small-tittle">流量目标2500</text>
+				</view>
+				<view class="btn-wrap">
+					<text class="btn" bindtap="toDetai1">邀请好友领取任务</text>
+				</view>
+			</view> 
+				<view class="tab1-item content-wrap">
+				<view class="tittle"> 动漫IP学习训练营－0704</view>
+				<view class="small-tittle">
+					距离训练营结束还有<text class="red"> 2天13时5分</text>
+				</view>
+				<image class="image-wrap-out" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+				<view class="tips-wrap">
+					<text class="small-tittle">36人已领取</text>
+					<text class="small-tittle"><text class="red">任务奖励100元</text></text>
+					<text class="small-tittle">流量目标2500</text>
+				</view>
+				<view class="btn-wrap">
+					<text class="btn" bindtap="toDetail2">邀请好友领取任务</text>
+				</view>
+			</view> 
+		</view>
+
+	</view>
+</view>
+
+<!-- <logo id="logo"></logo> -->
+<!-- <Tayron id="Tayron" wx:if="{{current.url == '/template/Tayron/Tayron'}}"></Tayron> -->
+<!--  -->
+<loading loading="{{loading}}"></loading>

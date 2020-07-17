@@ -1,0 +1,10 @@
+<!--detaiPage/tab01/imgDetail/imgDetail.wxml-->
+
+<header tittle="{{tittle}}"></header>
+<view class="img-wrap">
+<image class="detail-img" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+</view>
+<view class="btn-wrap btn-position" wx:if="showBtn">
+  <text class="btn">删除</text>
+</view>
+

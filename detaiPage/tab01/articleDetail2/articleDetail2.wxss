@@ -1,0 +1,40 @@
+.paddingBottom{
+  padding-bottom: 200rpx;
+}
+.article-wrap{
+  background-color: #fff;
+  padding: 10px 20px;
+  color: #333333;
+  padding-bottom: 200rpx;
+  margin-top: 20px;
+ }
+ .article-wrap .tittle{
+   padding-bottom: 4px;
+   font-size: 16px;
+   font-weight: 700;
+ }
+ .article-wrap .small-tittle{
+   font-size: 28rpx;
+   color: #a4a4a4;
+   margin-top: 4px;
+ }
+ .paragraph-wrap{
+   margin-top: 12px;
+ }
+ .article-wrap .paragraph{
+   margin-bottom: 16px;
+   line-height: 24px;
+   font-size: 34rpx;
+ }
+
+ .btn-position{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 20px;
+  background: #fff;
+
+}
+.btn-position .btn-wrap  .btn{
+  width: 100%;
+}

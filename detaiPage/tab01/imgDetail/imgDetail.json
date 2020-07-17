@@ -1,0 +1,10 @@
+
+{
+  "navigationBarTitleText": "详情",
+  "usingComponents": {
+
+    "header": "/Components/header/header",
+    "shareBottom": "/template/shareBottom/shareBottom"
+
+  }
+}

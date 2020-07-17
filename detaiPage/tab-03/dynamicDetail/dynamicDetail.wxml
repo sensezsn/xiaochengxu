@@ -1,0 +1,57 @@
+<header id='header' tittle="{{tittle}}"></header>
+<view style="{{'padding-top: ' + navigationBarHeight}}">
+  <view class="kehu-container">
+  <view class="avitor-wrap clearfix">
+    <view class="left-wrap float-left">
+      <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+      <view class="tittle-wrap">
+        <view class="tittle">喵了个咪</view>
+        <view class="small-tittle">访问次数34次</view>
+      </view>
+     
+    </view>
+     <view class="btn-wrap float-right">
+        <image src="/image/icon/weixin.png"></image>
+        <text>搭讪</text>
+      </view>
+  </view>
+    <view class="kehu-list">
+      <view class="kehu-item">
+        <view class="content-wrap">
+          <view class="tittle-wrap">
+            <view class="tittle">喵了个咪</view>
+            <view class="small-tittle">来源：保险顾问超哥的红包任务</view>
+          </view>
+          <view class="cont-wrap">
+            <view class="cont-item">
+              <view class="text-wrap">
+                <view class="time">13:14 浏览了文章，停留10分20秒</view>
+                <view class="label-tittle" >动漫系列之场漫系列之场景临摹，非常爱漫系列之场景临摹，非常爱景临摹，之场漫系列之场景临摹，非常爱漫系列之场景临摹，非常爱景临摹，非常爱看宫崎骏的动非常爱看宫崎骏的动漫.系列之场</view>
+              </view>
+            </view>
+            <image class="image-wrap" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+          </view>
+          <view class="cont-wrap">
+            <view class="cont-item">
+              <view class="text-wrap">
+                <view class="time">13:14 浏览了文章，停留10分20秒</view>
+                <view class="label-tittle red" >动漫系列之场漫系列之场景临摹，非常爱漫系列之场景临摹，非常爱景临摹，之场漫系列之场景临摹，非常爱漫系列之场景临摹，非常爱景临摹，非常爱看宫崎骏的动非常爱看宫崎骏的动漫.系列之场</view>
+              </view>
+            </view>
+            <image class="image-wrap" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+          </view>
+          <view class="cont-wrap">
+            <view class="cont-item">
+              <view class="text-wrap">
+                <view class="time">13:14 浏览了文章，停留10分20秒</view>
+                <view class="label-tittle yellow" >保险顾问超哥</view>
+              </view>
+            </view>
+            <image class="image-wrap" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+          </view>
+        </view>
+      </view>
+   
+    </view>
+  </view>
+</view>

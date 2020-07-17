@@ -1,0 +1,45 @@
+<view class="cti-baoBox" style="top:{{navigationBarHeight}}">
+	<view class="cti-masterHeadTop {{scrollDir}} {{scrollTop > screenHeight && 'restLogo'}}" id="logoScroll" wx:if="{{color == 'white'}}">
+		<view class="cti-masterScrollIcon clearfix">
+			<view class="cti-line cti-lineL"></view>
+			<view class="lineIcon">
+				<image class="cti-logoTu" wx:if="{{scrollTop > screenHeight}}" src="/image/blacklineIcon.png"></image>
+				<image class="cti-logoTu" mode="widthFix" wx:else src="/image/whitelineIcon.png"></image>
+			</view>
+			<view class="cti-line cti-lineR"></view>
+		</view>
+	</view>
+	<view class="cti-masterTop {{scrollTop > screenHeight && 'bg'}}" wx:if="{{color == 'white'}}">
+		<view class="cti-headlogo">
+			<image class="cti-headlogoImg" wx:if="{{scrollTop > screenHeight}}" src="/image/bLogo.png">
+			</image>
+			<image class="cti-headlogoImg" wx:else src="/image/whiteLogo.png"></image>
+		</view>
+	</view>
+	<view class="cti-LogoBg" wx:if="{{scrollTop > screenHeight && scrollDir == 'up'}}"></view>
+</view>
+
+<!-- <view class="cti-classwhite" wx:if="{{hasBg}}"></view> -->
+
+<!--  -->
+<!-- 黑色的 -->
+<view class="cti-baoBox" style="top:{{navigationBarHeight}}">
+	<view class="cti-masterHeadTop {{scrollDir}} restLogoBlack" id="logoScroll" wx:if="{{color == 'black'}}">
+		<view class="cti-masterScrollIcon clearfix">
+			<view class="cti-line cti-lineL"></view>
+
+			<view class="lineIcon">
+				<image class="cti-logoTu" src="/image/blacklineIcon.png"></image>
+			</view>
+
+			<view class="cti-line cti-lineR"></view>
+		</view>
+	</view>
+	<view class="cti-masterTop bg" wx:if="{{color == 'black'}}">
+		<view class="cti-headlogo">
+			<image class="cti-headlogoImg" src="/image/bLogo.png">
+			</image>
+		</view>
+	</view>
+	<view class="cti-LogoBg {{scrollDir}}" wx:if="{{hasBg}}"></view>
+</view>

@@ -1,0 +1,66 @@
+.share-bottom{
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  display: flex;
+  background: #fdfdfd;
+  /* background: red; */
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  border-top: 1px solid #efefef;
+}
+.share-bottom .share-container{
+  padding: 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.share-bottom .share-container .icon-wrap{
+  float: right;
+  padding-top: 12px;
+  box-sizing: border-box;
+}
+.share-bottom .share-container .img-wrap{
+  float: left;
+  overflow: hidden;
+  vertical-align: middle;
+  box-sizing: border-box;
+  line-height: 70px;
+  margin-top: -4px;
+}
+
+.share-bottom .share-container .img-wrap image{
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  vertical-align: middle;
+  display: inline-block;
+}
+.share-bottom .share-container .img-wrap text{
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.share-bottom .share-container .icon-wrap .icon-item{
+  display: inline-block;
+  margin-right: 10px;
+  width: 40px;
+  text-align: center;
+}
+.share-bottom .share-container .icon-wrap .icon-item image{
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.share-bottom .share-container .icon-wrap .icon-item text{
+  display: block;
+  text-align: center;
+  margin-top: 6px;
+  font-size: 22rpx;
+  color: #787e85;
+  height: 14px;
+  line-height: 14px;
+}

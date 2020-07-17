@@ -1,0 +1,10 @@
+<view class="navbar" style="{{'height: ' + navigationBarHeight}}">
+  <view style="{{'height: ' + statusBarHeight}}"></view>
+  <view class='title-container'>
+    <view class='capsule' bindtap='bindScanCode' bindtap="goBack">
+      <image src='/image/icon/goback.png' class="cti-Scan"></image>
+    </view>
+
+    <view class='title'>{{tittle}}</view>
+  </view>
+</view>

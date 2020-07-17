@@ -1,0 +1,22 @@
+<!--detaiPage/tab01/imgDetail/imgDetail.wxml-->
+
+<header tittle="{{tittle}}"></header>
+<view style="{{'padding-top: ' + navigationBarHeight}}" class="paddingBottom">
+<search showPreSee="{{showPreSee}}"></search>
+<view class="article-wrap"  >
+  <view class="tittle">伊能静和秦昊吵架累崩</view>
+  <view class="small-tittle">转自《网易新闻》</view>
+  <view class="paragraph-wrap">  
+    <view class="paragraph">伊能静、秦昊录制大陆真人秀《婆婆和妈妈》最新片段曝光，影片中她在与秦昊争吵后，开始反省自己，觉得自己和秦昊不同的就是，秦昊会把家庭放在第一顺位，而她会选择想办法生存下来</view>
+    <view class="paragraph">伊能静、秦昊录制大陆真人秀《婆婆和妈妈》最新片段曝光，影片中她在与秦昊争吵后，开始反省自己，觉得自己和秦昊不同的就是，秦昊会把家庭放在第一顺位，而她会选择想办法生存下来</view>
+    <view class="paragraph">伊能静、秦昊录制大陆真人秀《婆婆和妈妈》最新片段曝光，影片中她在与秦昊争吵后，开始反省自己，觉得自己和秦昊不同的就是，秦昊会把家庭放在第一顺位，而她会选择想办法生存下来</view>
+  </view>
+
+</view>
+</view>
+
+<view class="btn-position">
+  <view class="btn-wrap ">
+    <text class="btn">确认添加</text>
+  </view>
+</view>

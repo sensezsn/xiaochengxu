@@ -1,0 +1,72 @@
+/* detaiPage/tab02/drainage/drainage.wxss */.renwu-container{
+  background: #efefef;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: scroll;
+}
+
+.top-wrap{
+  height: 40px;
+  line-height: 40px;
+  color: #333;
+  background-color: #fff;
+  padding: 0 10px;
+}
+.top-wrap .tittle{
+  font-size: 12px;
+}
+.top-wrap .small-titlle{
+  font-size: 26rpx;
+  margin-left: 10px;
+}
+.green{
+  color: #10cbd2;
+  font-size: 12px;
+}
+.list-wrap {
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+.list-wrap .item-wrap{
+  padding: 0 10px ;
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #efefef;
+  background: #fff;
+  vertical-align: middle;
+}
+.list-wrap .item-wrap .img-wrap{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 30rpx;
+  overflow: hidden;
+}
+.list-wrap .item-wrap .img-wrap image{
+  border-radius: 8px;
+  width: 80rpx;
+  height: 80rpx;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.list-wrap .item-wrap .img-wrap text{
+  display: inline-block;
+}
+.list-wrap .item-wrap .text-wrap{
+  font-size: 20rpx;
+  color: #b3b3b3;
+}
+.list-wrap .item-wrap .text-wrap text{
+  padding: 0 4px;
+}
+.btn-wrap-top{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  
+}

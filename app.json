@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/tab-01/tab-01",
+    "pages/tab-02/tab-02",
+    "pages/tab-03/tab-03",
+    "pages/tab-04/tab-04",
+    "pages/VehicleOverview/VehicleOverview",
+    "template/swiper/swiper",
+    "detaiPage/tab01/imgDetail/imgDetail",
+    "detaiPage/tab01/articleDetail/articleDetail",
+    "detaiPage/tab02/sendRedPPaper/sendRedPPaper",
+    "detaiPage/tab02/drainage/drainage",
+    "detaiPage/tab02/orderList/orderList",
+    "detaiPage/tab02/payDetail/payDetail",
+    "detaiPage/tab02/redDetail/redDetail",
+    "detaiPage/tab02/vipDetail/vipDetail",
+    "detaiPage/tab01/homePreview/homePreview",
+    "detaiPage/tab01/labelPage/labelPage",
+    "detaiPage/tab01/imgDetail2/imgDetail2",
+    "detaiPage/tab01/articleDetail2/articleDetail2",
+    "detaiPage/tab01/recommendArtical/recommendArtical",
+    "detaiPage/tab01/articleContainer/articleContainer",
+    "detaiPage/tab01/localStation/localStation",
+    "detaiPage/tab-03/dynamicDetail/dynamicDetail",
+    "detaiPage/tab-04/withdrawal/withdrawal",
+    "detaiPage/tab-04/chat/chat"
+  ],
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tab-01/tab-01",
+        "iconPath": "/image/icon/zhuye-no.png",
+        "selectedIconPath": "/image/icon/zhuye.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/tab-02/tab-02",
+        "iconPath": "/image/icon/renwu-no.png",
+        "selectedIconPath": "/image/icon/renwu.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/tab-03/tab-03",
+        "iconPath": "/image/icon/kehu-no.png",
+        "selectedIconPath": "/image/icon/kehu.png",
+        "text": "客户"
+      },
+      {
+        "pagePath": "pages/tab-04/tab-04",
+        "iconPath": "/image/icon/shouyi-no.png",
+        "selectedIconPath": "/image/icon/shouyi.png",
+        "text": "收益"
+      },
+      {
+        "pagePath": "pages/VehicleOverview/VehicleOverview",
+        "iconPath": "/image/icon/xiaoxi.png",
+        "selectedIconPath": "/image/icon/xiaoxi.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {}
+}

@@ -1,0 +1,10 @@
+<view class="search-wrap">
+  <view class="input-wrap">
+    <input class="input" placeholder="搜索" placeholder-class="input-placeholder"></input>
+    <view class="pre-see" wx:if="{{showPreSee}}">
+      <image class="icon" src="/image/icon/yulan.png"></image>
+      <text>预览</text>
+    </view>
+  </view>
+
+</view>

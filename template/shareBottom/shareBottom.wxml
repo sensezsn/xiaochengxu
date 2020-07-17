@@ -1,0 +1,23 @@
+<view class="share-bottom">
+  <view class="share-container clearfix">
+    <view class="img-wrap">
+      <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+      <text>保险超哥顾问</text>
+
+    </view>
+    <view class="icon-wrap">
+      <view class="icon-item" wx:if="{{showToMe}}">
+        <image src="/image/icon/tome.png"></image>
+        <text>变成我的</text>
+      </view>
+      <view class="icon-item">
+        <image src="/image/icon/zixun.png"></image>
+        <text>咨询</text>
+      </view>
+      <view class="icon-item">
+        <image src="/image/icon/share.png"></image>
+        <text>分享</text>
+      </view>
+    </view>
+  </view>
+</view>

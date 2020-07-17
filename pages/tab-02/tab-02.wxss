@@ -1,0 +1,159 @@
+.renwu-container{
+  background: #fefefe;
+  padding-bottom: 200rpx;
+}
+.selectTab{
+  width:100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #fff;
+  color: #333;
+  font-size: 14px;
+}
+.selectTab .tabItem{
+  border-bottom:2px solid transparent;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.selectTab .tabItem.active{
+  color: #10cbd2;
+  border-bottom: 2px solid #10cbd2;
+}
+
+.renwu-container .container-wrap{
+  padding: 20px 10px;
+  background: #efefef;
+
+}
+.tab0 .tab0-item{
+  border-radius: 10px;
+  background: #fff;
+  padding:10px;
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 10px;
+
+}
+.tab0 .tab0-item .top-wrap .img-wrap{
+  width: 140rpx;
+  height: 140rpx;
+  position: absolute;
+  left: 10px;
+  top: 18px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.tab0 .tab0-item .top-wrap .img-wrap image{
+  width: 100%;
+  height: 100%;
+}
+.tab0 .tab0-item .top-wrap .content-wrap{
+  padding-left: 160rpx;
+  box-sizing: border-box;
+}
+.content-wrap .tittle{
+  font-size: 12px;
+  color: #333;
+  font-weight: 700;
+}
+.content-wrap .small-tittle{
+  font-size: 24rpx;
+  color: #333;
+  margin: 4px;
+}
+.content-wrap .small-tittle .red{
+  color: red;
+}
+.progress-wrap {
+  position: relative;
+
+}
+.progress-wrap .progress-tittle{
+  position: absolute;
+  width: 140rpx;
+  text-align: left;
+  left: 4px;
+  font-size: 28rpx;
+  top: 3px;
+}
+.progress-wrap .progress{
+  box-sizing: border-box;
+  padding-left: 160rpx;
+  vertical-align: middle;
+}
+.progress-wrap .progress .bar{
+  display: inline-block;
+  width: 80%;
+  height: 10px;
+  background: #efefef;
+  border-radius: 8px;
+  line-height: 10px;
+}
+.progress-wrap .progress .bar::after{
+  display: inline-block;
+  content: '';
+  width: 50%;
+  height: 10px;
+  line-height: 10px;
+  background: #10cbd2;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+}
+.progress-wrap .progress .bar-tips{
+  margin-left: 6px;
+  color: #10cbd2;
+  font-size: 28rpx;
+}
+.image-wrap-out{
+  height: 200rpx;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 16px;
+}
+.container-wrap .btn-wrap{
+  padding: 10px;
+  text-align: center;
+}
+.container-wrap .btn-wrap .btn{
+  background: #10cbd2;
+  color: #fff;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  width: 400rpx;
+  margin: 0 auto;
+  display: block;
+  border-radius: 14px;
+}
+.tab1-item{
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 8px;
+  padding:10px;
+  box-sizing: border-box;
+}
+.tab1 .add-wrap{
+  background: #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+}
+.add-icon{
+  display: inline-block;
+  font-size: 18px;
+  color: #bebebe;
+  margin-right: 10px;
+}
+.add-tittle{
+  display: inline-block;
+  color: #bebebe;
+  font-size: 14px;
+}
+.tips-wrap{
+  margin-top: 10px;
+}

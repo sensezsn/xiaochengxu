@@ -1,0 +1,252 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": false,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": false,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.12.0",
+	"appid": "wx3280bc3fea65617a",
+	"projectname": "xiaochengxu-zdy",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/test",
+					"pathName": "pages/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "template/swiper",
+					"pathName": "template/swiper",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "template/swiper/swiper",
+					"pathName": "template/swiper/swiper",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab01/imgDetail/imgDetail",
+					"pathName": "detaiPage/tab01/imgDetail/imgDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab01/articleDetail/articleDetail",
+					"pathName": "detaiPage/tab01/articleDetail/articleDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/tab-02/tab-02",
+					"pathName": "pages/tab-02/tab-02",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab02/sendRedPPaper/sendRedPPaper",
+					"pathName": "detaiPage/tab02/sendRedPPaper/sendRedPPaper",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab02/drainage/drainage",
+					"pathName": "detaiPage/tab02/drainage/drainage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab02/orderList/orderList",
+					"pathName": "detaiPage/tab02/orderList/orderList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab02/payDetail/payDetail",
+					"pathName": "detaiPage/tab02/payDetail/payDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab02/redDetail/redDetail",
+					"pathName": "detaiPage/tab02/redDetail/redDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab02/vipDetail/vipDetail",
+					"pathName": "detaiPage/tab02/vipDetail/vipDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab01/homePreview/homePreview",
+					"pathName": "detaiPage/tab01/homePreview/homePreview",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/tab-01/tab-01",
+					"pathName": "pages/tab-01/tab-01",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab01/labelPage/labelPage",
+					"pathName": "detaiPage/tab01/labelPage/labelPage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab01/imgDetail2/imgDetail2",
+					"pathName": "detaiPage/tab01/imgDetail2/imgDetail2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab01/articleDetail2/articleDetail2",
+					"pathName": "detaiPage/tab01/articleDetail2/articleDetail2",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab01/recommendArtical/recommendArtical",
+					"pathName": "detaiPage/tab01/recommendArtical/recommendArtical",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab01/articleContainer/articleContainer",
+					"pathName": "detaiPage/tab01/articleContainer/articleContainer",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab01/localStation/localStation",
+					"pathName": "detaiPage/tab01/localStation/localStation",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/tab-03/tab-03",
+					"pathName": "pages/tab-03/tab-03",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab-03/dynamicDetail/dynamicDetail",
+					"pathName": "detaiPage/tab-03/dynamicDetail/dynamicDetail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/tab-04/tab-04",
+					"pathName": "pages/tab-04/tab-04",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab-04/withdrawal/withdrawal",
+					"pathName": "detaiPage/tab-04/withdrawal/withdrawal",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/VehicleOverview/VehicleOverview",
+					"pathName": "pages/VehicleOverview/VehicleOverview",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "detaiPage/tab-04/chat/chat",
+					"pathName": "detaiPage/tab-04/chat/chat",
+					"scene": null
+				}
+			]
+		}
+	}
+}

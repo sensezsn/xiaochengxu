@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "任务",
+  "usingComponents": {
+
+    "header": "/Components/header/header",
+
+    "loading": "/Components/loading/loading"
+  }
+}

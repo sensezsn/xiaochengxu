@@ -1,0 +1,39 @@
+<view class="header" >
+  <view style="{{'height: ' + statusBarHeight}}"></view>
+  <view class='title-container'>
+    <view class='title'>{{tittle}}</view>
+  </view>
+  <view class="person-detail clearfix">
+    <view class="avitor">
+      <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+    </view>
+       <text class="tittle">保险顾问超哥</text>
+    <view class="btn-wrap">
+      <view class="btn">
+        <text bindtap="goHome">主页预览</text>
+      </view>
+    </view>
+  </view>
+ 
+  <view class="tel-wrap">
+    <view class="context">
+      <image class="icon" src="/image/icon/tel.png"></image>
+      <text>13223558392</text>
+    </view>
+     <view class="context">
+      <image class="icon" src="/image/icon/weixin.png"></image>
+      <text>fRansj</text>
+    </view>
+    <view class="context">
+      <image class="icon" src="/image/icon/gongsi.png"></image>
+      <text>中信诚保</text>
+    </view>
+  </view>
+  <view class="tips-wrap" bindtap="toLabelPage">
+    <text>美食</text><text class="line">|</text>
+    <text>吃货</text><text class="line">|</text>
+    <text>冷面</text><text class="line">|</text>
+    <text>保险</text><text class="line">|</text>
+    <text>嗑瓜子星人</text><text class="line"> > </text>
+  </view>
+</view>

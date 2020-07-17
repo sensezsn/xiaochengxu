@@ -1,0 +1,24 @@
+.article-wrap{
+ background-color: #fff;
+ padding: 10px 20px;
+ color: #333333;
+ padding-bottom: 200rpx;
+}
+.article-wrap .tittle{
+  padding-bottom: 4px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.article-wrap .small-tittle{
+  font-size: 28rpx;
+  color: #a4a4a4;
+  margin-top: 4px;
+}
+.paragraph-wrap{
+  margin-top: 12px;
+}
+.article-wrap .paragraph{
+  margin-bottom: 16px;
+  line-height: 24px;
+  font-size: 34rpx;
+}

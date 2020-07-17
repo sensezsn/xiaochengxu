@@ -1,0 +1,9 @@
+
+{
+  "navigationBarTitleText": "推荐文章",
+  "usingComponents": {
+
+    "header": "/Components/header/header",
+    "search": "/Components/search/search"
+  }
+}

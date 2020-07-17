@@ -1,0 +1,52 @@
+<header tittle="{{tittle}}"></header>
+<view style="{{'padding-top: ' + navigationBarHeight}}" class="paddingBottom">
+
+  <search showPreSee="{{showPreSee}}"></search>
+  <view class="container-wrap">
+    <view class="article-wrap wrap-item">
+      <view class="tittle-wrap">
+        <view class="tittle" bindtap="toAddArtical">
+          <text class="icon">+</text>
+          <text>补充文章库</text>
+        </view>
+      </view>
+      <view class="article-list">
+        <view class="article-item clerafix" bindtap="toArticle">
+          <image class="select-icon" src="/image/icon/select.png"></image>
+          <view class="item-text" >
+            <view><text>动漫系列只场景临摹，非常好看的宫崎骏动漫《龙猫》</text></view> 
+            <text class="little-text">转自《今日头条》</text>
+          </view>
+          <view class="img-wrap">
+            <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+          </view>
+        </view>
+        <view class="article-item clerafix" bindtap="toArticle">
+        <image class="select-icon" src="/image/icon/select-no.png"></image>
+          <view class="item-text">
+            <view><text>动漫系列只场景临摹，非常好看的宫崎骏动漫《龙猫》</text></view> 
+            <text class="little-text">转自《今日头条》</text>
+          </view>
+          <view class="img-wrap">
+            <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+          </view>
+        </view>
+        <view class="article-item clerafix" bindtap="toArticle">
+         <image class="select-icon" src="/image/icon/select.png"></image>
+          <view class="item-text">
+            <view><text>动漫系列只场景临摹，非常好看的宫崎骏动漫《龙猫》</text></view> 
+            <text class="little-text">转自《今日头条》</text>
+          </view>
+          <view class="img-wrap">
+            <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="btn-position">
+  <view class="btn-wrap ">
+    <text class="btn">确定</text>
+  </view>
+</view>

@@ -1,0 +1,3 @@
+<view class="hLoading" hidden='{{!loading}}'>
+  <image src="/image/hLoading.gif" class="hLoading__img"></image>
+</view>

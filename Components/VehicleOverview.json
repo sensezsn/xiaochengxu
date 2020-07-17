@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "一汽-大众",
+  "usingComponents": {
+    "header": "/Components/header/header"
+  }
+}

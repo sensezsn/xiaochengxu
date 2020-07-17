@@ -1,0 +1,149 @@
+/* detaiPage/tab02/drainage/drainage.wxss */.renwu-container{
+  background: #efefef;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: scroll;
+}
+.top-wrap{
+  background: #2b2a36;
+  padding: 20px 10px 200rpx 10px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.top-wrap .top-content{
+  background: #f24e4e;
+  padding: 20px;
+  border-radius: 24px;
+}
+.top-wrap .top-content .tittle{
+  color: #ffda9f;
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 700;
+}
+.top-wrap .top-content .tittle .english{
+  font-family: Georgia, serif;
+}
+.top-wrap .top-content .tittle .china{
+  font-family: "Microsoft Yahei";
+  margin-left: 10px;
+}
+
+.top-wrap .top-content .small-tittle{
+  font-size: 28rpx;
+  color: #fff5e4;
+}
+.top-wrap .top-content .small-tittle view{
+  margin-top: 4px;
+}
+.middle-wrap{
+  padding: 10px;
+  border-radius: 8px;
+  background: #fff;
+  margin-top: -100rpx;
+  margin: -150rpx 14px 20px 14px;
+}
+.middle-wrap .tittle{
+  font-size: 14px;
+  color: #333;
+  padding-left: 10px;
+  position: relative;
+}
+.middle-wrap .tittle::before{
+  display: block;
+  content: '';
+  width: 3px;
+  height: 16px;
+  background: #f68b84;
+  position: absolute;
+  border-radius: 3px;
+  left: 0;
+  top: 2px;
+}
+.middle-wrap .img-list{
+  margin-top: 10px;
+}
+.middle-wrap .img-list .img-item{
+  width: 25%;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 30rpx;
+}
+.middle-wrap .img-list .img-item image{
+  display: inline-block;
+  width: 80%;
+  height: 18vw;
+  border-radius: 50%;
+}
+.middle-wrap .img-list .img-item .add-more{
+  /* display: inline-block; */
+  width: 80%;
+  height: 18vw;
+  line-height: 20vm;
+  border-radius: 50%;
+  background: #fdebce;
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+.middle-wrap .img-list .img-item .add-more .doted-wrap {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.middle-wrap .img-list .img-item .add-more .doted-wrap .doted{
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #a78754;
+  display: inline-block;
+  margin: 0 2px;
+  position: relative;
+  top: -2px;
+}
+.middle-wrap .img-list .img-item .tip{
+  font-size: 28rpx;
+  color: #333;
+  margin-top: 4px;
+}
+
+.text-wrap{
+  text-align: center;
+  font-size: 12px;
+}
+.text-wrap view{
+  display: inline-block;
+  padding: 0 6px;
+}
+.text-wrap .red{
+  color: #e54141;
+}
+.text-wrap .grey{
+  color: #c5c5c5;
+  text-decoration: line-through;
+}
+.btn-wrap{
+  padding: 0;
+}
+.btn-wrap-top{
+  margin-top: 14px;  
+}
+.btn.pay-btn{
+  background: #f0dbb7;
+  color: #333;
+}
+.btn.pay-btn-white{
+  background: #fff;
+  color: #c5c5c5;
+}
+.btn-wrap.btn-wrap-top{
+  margin-bottom: 20px;
+}
+.btn-group{
+  box-sizing: border-box;
+  padding: 14px 0 40px 0;
+}

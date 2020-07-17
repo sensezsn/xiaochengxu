@@ -1,0 +1,124 @@
+
+<header3 id='header' tittle="{{tittle}}"></header3>
+<view class="container-wrap">
+  <view class="shop-wrap clearfix">
+    <view class="img-wrap">
+      <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+    </view>
+    <view class="text-wrap">
+      <view class="tittle-wrap">
+        <text class="tittle"> HYETYEA 喜茶 </text>
+        <image class="icon open" src="/image/icon/yulan.png"></image>
+        <image class="icon" src="/image/icon/yulan-no.png"></image>
+      </view>
+      <view class="icon-wrap" bindtap="toLocalStation">
+        <image src="/image/icon/dingwei.png"></image>
+        <text class="text">北京昌平145号</text>
+      </view>
+    </view>
+  </view>
+  <view class="img-wrap wrap-item video-wrap">
+    <view class="tittle">视频管理（3/4）</view>
+    <view class="img-list clearfix">
+     <view class="img-item float-left">
+       <image bindtap="toImageManage"  src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text class="time">1:23</text>
+        <image src="/image/icon/del.png" class="del"></image>
+        <image src="/image/icon/bofang.png" class="play"></image>
+      </view>
+    <view class="img-item float-right">
+      <image bindtap="toImageManage"  src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+      <text class="time">1:23</text>
+      <image src="/image/icon/del.png" class="del"></image>
+      <image src="/image/icon/bofang.png" class="play"></image>
+    </view>
+    <view class="img-item float-left">
+      <image bindtap="toImageManage"  src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+      <text class="time">1:23</text>
+      <image src="/image/icon/del.png" class="del"></image>
+      <image src="/image/icon/bofang.png" class="play"></image>
+    </view>
+    <view class="img-item float-right add-video">
+      <image src="/image/icon/icon-add.png" class="add"></image>
+    </view>
+    </view>
+  </view>
+  <view class="img-wrap wrap-item">
+    <view class="tittle">图片管理（5/8）</view>
+    <view class="img-list clearfix">
+      <view class="img-item float-left">
+        <image bindtap="toImageManage"  src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <image src="/image/icon/del.png" class="del"></image>
+      </view>
+   
+      <view class="img-item float-right">
+        <image bindtap="toImgDetai"  src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <image src="/image/icon/del.png" class="del"></image>
+      </view>
+      <view class="img-item float-left">
+        <image bindtap="toImageManage"  src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <image src="/image/icon/del.png" class="del"></image>
+      </view>
+      <view class="img-item float-right">
+        <image bindtap="toImageManage"  src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <image src="/image/icon/del.png" class="del"></image>
+      </view>
+      <view class="img-item float-left">
+        <image bindtap="toImageManage"  src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <image src="/image/icon/del.png" class="del"></image>
+      </view>
+      <view class="img-item float-right add-video">
+        <image src="/image/icon/icon-add.png" class="add"></image>
+      </view>
+    </view>
+  </view>
+  <view class="article-wrap wrap-item">
+    <view class="tittle-wrap">
+      <view class="tittle">文章管理（1/3）</view>
+      <view class="icon-article">
+        <image src="/image/icon/article.png"></image>
+        <text>文章库</text>
+      </view>
+    </view>
+    <view class="article-list">
+      <view class="article-item clerafix" bindtap="toArticle">
+        <view class="item-text" >
+          <view><text>动漫系列只场景临摹，非常好看的宫崎骏动漫《龙猫》</text></view> 
+          <text class="little-text">转自《今日头条》</text>
+        </view>
+        <view class="img-wrap">
+          <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        </view>
+      </view>
+       <view class="article-item clerafix" bindtap="toArticle">
+        <view class="item-text">
+          <view><text>动漫系列只场景临摹，非常好看的宫崎骏动漫《龙猫》</text></view> 
+          <text class="little-text">转自《今日头条》</text>
+        </view>
+        <view class="img-wrap">
+          <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        </view>
+      </view>
+       <view class="article-item clerafix" bindtap="toArticle">
+        <view class="item-text">
+          <view><text>动漫系列只场景临摹，非常好看的宫崎骏动漫《龙猫》</text></view> 
+          <text class="little-text">转自《今日头条》</text>
+        </view>
+        <view class="img-wrap">
+          <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="btn-wrap">
+    <view class="btn grey">
+      <image src="/image/icon/icon-add.png" class="add"></image>
+      <text >添加文章</text>
+    </view>
+  </view>
+</view>
+<!-- <logo id="logo"></logo> -->
+<!-- <Tayron id="Tayron" wx:if="{{current.url == '/template/Tayron/Tayron'}}"></Tayron> -->
+<!--  -->
+<loading loading="{{loading}}"></loading>
+

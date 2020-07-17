@@ -1,0 +1,67 @@
+.container-wrap{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: #ebebeb;
+  box-sizing: border-box;
+  border-top: 1px solid #efefef;
+}
+.widthDrow-wrap{
+  border-top: 1px solid #dbd4d4ab;
+  padding: 19px;
+}
+.widthDrow-wrap-container{
+  padding: 18px;
+  border-radius: 20px;
+  background: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.widthDrow-wrap .top-wrap{
+  padding: 12px 0;
+}
+.widthDrow-wrap .tittle{
+  font-size: 14px;
+  color: #333;
+}
+.widthDrow-wrap .name{
+  padding-left: 16px;
+}
+.widthDrow-wrap .small-tittle{
+  font-size: 26rpx;
+  color: #b7b7b7;
+  padding-bottom: 18px;
+}
+.widthDrow-wrap .btn-tittle{
+  font-size: 26rpx;
+  margin-left: 14px;
+  color: #10cbd2;
+  text-decoration: underline; 
+}
+
+.placeholder-money{
+  font-size: 24px;
+  color: #333;
+}
+.input-wrap{
+  border-bottom: 1px solid #ececec;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.input{
+  margin-top: 20px;
+}
+.btn-wrap-top{
+  margin-top: 10px;
+}
+.btn.grey{
+  color: #b7b7b7;
+}
+.explain{
+  font-size: 28rpx;
+  padding: 20px 10px;
+  line-height: 20px;
+  color: #333;
+}

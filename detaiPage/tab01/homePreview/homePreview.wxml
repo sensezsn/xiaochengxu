@@ -1,0 +1,68 @@
+
+<header2 id='header' tittle="{{tittle}}"></header2>
+<view class="container-wrap">
+  <view class="shop-wrap clearfix">
+    <view class="img-wrap">
+      <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+    </view>
+    <view class="text-wrap">
+      <view class="tittle">HYETYEA 喜茶</view>
+      <view class="icon-wrap"><image src="/image/icon/dingwei.png"></image><text class="text">北京昌平145号</text></view>
+    </view>
+  </view>
+  <view class="video-wrap wrap-item">
+    <view class="tittle">视频</view>
+    <view class="video-content">
+    <swiperWrap></swiperWrap>
+    </view>
+  </view>
+  <view class="img-wrap wrap-item">
+    <view class="tittle">图片</view>
+    <view class="img-list clearfix">
+      <image bindtap="toImgDetai" class="img-item float-left" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+      <image bindtap="toImgDetai" class="img-item float-right" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+      <image bindtap="toImgDetai" class="img-item float-left" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+      <image bindtap="toImgDetai" class="img-item float-right" src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+    </view>
+  </view>
+  <view class="article-wrap wrap-item">
+    <view class="tittle">推荐文章</view>
+    <view class="article-list">
+      <view class="article-item clerafix" bindtap="toArticle">
+        <view class="item-text" >
+          <view><text>动漫系列只场景临摹，非常好看的宫崎骏动漫《龙猫》</text></view> 
+          <text class="little-text">转自《今日头条》</text>
+        </view>
+        <view class="img-wrap">
+          <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        </view>
+      </view>
+       <view class="article-item clerafix" bindtap="toArticle">
+        <view class="item-text">
+          <view><text>动漫系列只场景临摹，非常好看的宫崎骏动漫《龙猫》</text></view> 
+          <text class="little-text">转自《今日头条》</text>
+        </view>
+        <view class="img-wrap">
+          <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        </view>
+      </view>
+       <view class="article-item clerafix" bindtap="toArticle">
+        <view class="item-text">
+          <view><text>动漫系列只场景临摹，非常好看的宫崎骏动漫《龙猫》</text></view> 
+          <text class="little-text">转自《今日头条》</text>
+        </view>
+        <view class="img-wrap">
+          <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="btn-wrap">
+    <text class="btn" bindtap="toHomePage">跳转到我的主页</text>
+  </view>
+</view>
+<!-- <logo id="logo"></logo> -->
+<!-- <Tayron id="Tayron" wx:if="{{current.url == '/template/Tayron/Tayron'}}"></Tayron> -->
+<!--  -->
+<!-- <loading loading="{{loading}}"></loading> -->
+

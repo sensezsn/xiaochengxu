@@ -1,0 +1,61 @@
+<!--detaiPage/tab01/imgDetail/imgDetail.wxml-->
+
+<header tittle="{{tittle}}"></header>
+<view style="{{'padding-top: ' + navigationBarHeight}}">
+  <view class="tittle-wrap clearfix">
+    <text class="tittle float-left">选中主页显示</text>
+    <text class="tittle grey float-right">5/6</text>
+  </view>
+  <view class="label-list">
+    <view class="label-item clearfix">
+      <view class="icon-wrap float-left">
+        <image class="icon" src="/image/icon/select.png"></image>
+        <text>美食</text>
+      </view>
+      <view class="tips-wrap float-right">
+        <text class="green">10人点亮</text>
+      </view>
+    </view>
+    <view class="label-item clearfix">
+      <view class="icon-wrap float-left">
+        <image class="icon" src="/image/icon/select.png"></image>
+        <text>美食</text>
+      </view>
+      <view class="tips-wrap float-right">
+        <text class="green">10人点亮</text>
+      </view>
+    </view>
+    <view class="label-item clearfix">
+      <view class="icon-wrap float-left">
+        <image class="icon" src="/image/icon/selectno.png"></image>
+        <text>美食</text>
+      </view>
+      <view class="tips-wrap float-right">
+        <text class="grey">10人点亮</text>
+      </view>
+    </view>
+    <view class="label-item clearfix">
+      <view class="icon-wrap float-left">
+        <image class="icon" src="/image/icon/selectno.png"></image>
+        <text>美食</text>
+      </view>
+      <view class="tips-wrap float-right">
+        <text class="red">删除</text>
+      </view>
+    </view>
+     <view class="label-item clearfix">
+      <view class="icon-wrap float-left">
+        <image class="icon" src="/image/icon/selectno.png"></image>
+        <input class="input" placeholder="请输入标签名"></input>
+      </view>
+      <view class="tips-wrap float-right">
+        <text class="grey">0人点亮</text>
+      </view>
+    </view>
+  </view>
+  <view class="add-label">
+  <image class="icon" src="/image/icon/add-label.png"></image>
+  <text>添加标签</text>
+  </view>
+
+</view>

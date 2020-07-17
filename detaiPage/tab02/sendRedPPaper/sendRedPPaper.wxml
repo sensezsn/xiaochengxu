@@ -1,0 +1,56 @@
+
+<header id='header' tittle="{{tittle}}"></header>
+<view class="renwu-container" style="{{'padding-top: ' + navigationBarHeight}}">
+  <view class="form-wrap"> 
+    <view class="form-item">
+      <text class="label">任务标题</text>
+      <input class="input-wrap" placeholder="请输入任务标题（17字以内）"></input>
+    </view>
+    <view class="form-item clearfix">
+      <text class="label">推广元素</text>
+        <view class="icon-wrap float-right">
+        <image class="icon" src="/image/icon/goback.png"></image>
+      </view>
+      <view class="icon-wrap float-right">
+        <image class="addImage" src="/image/icon/addimg.png"></image>
+      </view>
+      
+    </view>
+    <view class="form-item">
+      <text class="label">任务数量</text>
+      <input class="input-wrap" placeholder="发放红包任务总量"></input>
+    </view>
+    <view class="form-item">
+      <text class="label">引流目标</text>
+      <input class="input-wrap" placeholder="每个任务目标访客量"></input>
+    </view>
+    <view class="form-item">
+      <text class="label">截止时间</text>
+      <input class="input-wrap" placeholder="任务考核时间点"></input>
+    </view>
+    <view class="form-item">
+      <text class="label">奖励额度</text>
+      <input class="input-wrap" placeholder="每个任务完成奖励金额"></input>
+    </view>
+  </view> 
+  <view class="tips-wrap">
+    <view class="tips-tittle">说明：</view>
+    <view class="li-item">
+      1.需要提前按照任务数量*奖励额度充值红包。
+    </view>
+    <view class="li-item">
+      2.截止时间前完成引流目标的任务领取者，获得任务奖励红包。
+    </view>
+    <view class="li-item">
+      3.截止时间前未被领走的任务和领走未完成的任务，对应的奖励红包退回给任务发布者。
+    </view>
+  </view>
+  <view class="btn-wrap btn-wrap-top">
+    <text class="btn">发布红包任务</text>
+  </view>
+</view>
+
+<!-- <logo id="logo"></logo> -->
+<!-- <Tayron id="Tayron" wx:if="{{current.url == '/template/Tayron/Tayron'}}"></Tayron> -->
+<!--  -->
+<!-- <loading loading="{{loading}}"></loading> -->

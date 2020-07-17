@@ -1,0 +1,81 @@
+
+<header id='header' tittle="{{tittle}}"></header>
+<view class="renwu-container" style="{{'padding-top: ' + navigationBarHeight}}">
+  <view class="top-wrap">
+    <view class="top-content">
+      <view class="tittle">
+        <text class="english">VIP</text>
+        <text class="china">会员</text>
+      </view>
+      <view class="small-tittle">
+        <view>[会员权益]</view>
+        <view>1.自由查看来访人员信息</view>
+        <view>2.与意向客户自由对话</view>
+        <view>3.将他人文章“变成我的”快速补充文章库</view>
+      </view>
+    </view>
+    
+  </view>
+
+  <view class="middle-wrap">
+    <view class="tittle">适用人群</view>
+    <view class="img-list clearfix">
+      <view class="img-item">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <view class="tip">微商</view>
+      </view>
+       <view class="img-item">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <view class="tip">门店主</view>
+      </view>
+       <view class="img-item">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <view class="tip">保险代理人</view>
+      </view>
+       <view class="img-item">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <view class="tip">房产中介</view>
+      </view>
+       <view class="img-item">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <view class="tip">信贷销售</view>
+      </view>
+       <view class="img-item">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <view class="tip">广告代理</view>
+      </view>
+       <view class="img-item">
+        <view class="add-more">
+          <view class="doted-wrap">
+            <view class="doted"></view>
+            <view class="doted"></view>
+            <view class="doted"></view>
+          </view>
+          
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="btn-group">
+    <view class="text-wrap">
+      <view class="red">年服务费</view>
+      <view class="grey">365元</view>
+      <view class="red">199元</view>
+    </view>
+    <view class="btn-wrap  btn-wrap-top">
+      <text class="btn  pay-btn">微信支付</text>
+    </view>
+    <view class="btn-wrap">
+      <text class="btn pay-btn-white">余额支付</text>
+    </view>
+  </view>
+
+
+ 
+</view>
+
+<!-- <logo id="logo"></logo> -->
+<!-- <Tayron id="Tayron" wx:if="{{current.url == '/template/Tayron/Tayron'}}"></Tayron> -->
+<!--  -->
+<!-- <loading loading="{{loading}}"></loading> -->

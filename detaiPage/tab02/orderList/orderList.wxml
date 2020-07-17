@@ -1,0 +1,71 @@
+
+<header id='header' tittle="{{tittle}}"></header>
+<view class="renwu-container" style="{{'padding-top: ' + navigationBarHeight}}">
+  <view class="top-wrap clearfix">
+    <view class="float-left">
+      <text class="tittle">接单列表</text>
+      <text class="small-titlle">(70/100)</text>
+    </view>
+    <view class="float-right green">已完成70%</view>
+  </view>
+
+  <view class="list-wrap">
+   <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <view class="content-warp">
+          <text class="tittle">爱儿美辰辰</text>
+          <text class="small-tips">引流30人</text>
+        </view>
+      </view>
+      <view class="text-wrap float-right">
+        <text>已完成60%</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <view class="content-warp">
+          <text class="tittle">爱儿美辰辰</text>
+          <text class="small-tips">引流30人</text>
+        </view>
+      </view>
+      <view class="text-wrap float-right">
+        <text class="over">已完成</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <view class="content-warp">
+          <text class="tittle">爱儿美辰辰</text>
+          <text class="small-tips">引流30人</text>
+        </view>
+      </view>
+      <view class="text-wrap float-right">
+        <text>已完成60%</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <view class="content-warp">
+          <text class="tittle">爱儿美辰辰</text>
+          <text class="small-tips">引流30人</text>
+        </view>
+      </view>
+      <view class="text-wrap float-right">
+        <text>已完成60%</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="btn-wrap btn-wrap-top">
+    <text class="btn">邀请好友领取任务</text>
+  </view>
+</view>
+
+<!-- <logo id="logo"></logo> -->
+<!-- <Tayron id="Tayron" wx:if="{{current.url == '/template/Tayron/Tayron'}}"></Tayron> -->
+<!--  -->
+<!-- <loading loading="{{loading}}"></loading> -->

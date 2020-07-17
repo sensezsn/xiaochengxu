@@ -1,0 +1,39 @@
+.navbar {
+  width: 100vw;
+  background-color: #ededed;
+  position: fixed;
+  z-index: 999;
+}
+
+.title-container {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.capsule {
+  margin-left: 30rpx;
+  height: 32px;
+  /* border: 1px solid #777; */
+  /* border-radius: 16px; */
+  display: flex;
+  align-items: center;
+}
+.cti-Scan {
+  width: 30rpx;
+  height: 30rpx;
+  display: block;
+  transform: rotate(180deg);
+}
+.title {
+  color: #333333;
+  position: absolute;
+  left: 104px;
+  right: 104px;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

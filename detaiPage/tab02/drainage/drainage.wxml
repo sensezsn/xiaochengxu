@@ -1,0 +1,158 @@
+
+<header id='header' tittle="{{tittle}}"></header>
+<view class="renwu-container" style="{{'padding-top: ' + navigationBarHeight}}">
+  <view class="top-wrap clearfix">
+    <view class="float-left">
+      <text class="tittle">引流明细</text>
+      <text class="small-titlle">(70/100)</text>
+    </view>
+    <view class="float-right green">已完成70%</view>
+  </view>
+
+  <view class="list-wrap">
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+    <view class="item-wrap clearfix">
+      <view class="img-wrap float-left">
+        <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+        <text>爱儿美辰辰</text>
+      </view>
+      <view class="text-wrap float-right">
+        <text>最近采访</text>
+        <text>08-03</text>
+        <text>12:12:23</text>
+      </view>
+    </view>
+    
+    
+  </view>
+
+  <view class="btn-wrap btn-wrap-top">
+    <text class="btn">放弃任务</text>
+  </view>
+</view>
+
+<!-- <logo id="logo"></logo> -->
+<!-- <Tayron id="Tayron" wx:if="{{current.url == '/template/Tayron/Tayron'}}"></Tayron> -->
+<!--  -->
+<!-- <loading loading="{{loading}}"></loading> -->
