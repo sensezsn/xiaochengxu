@@ -1,2 +1,57 @@
-<!--pages/VehicleOverview/VehicleOverview.wxml-->
-<text>pages/VehicleOverview/VehicleOverview.wxml</text>
+<header id='header' tittle="消息"></header>
+<view class='main' style="{{'padding-top:' + navigationBarHeight}}">
+    <view class="msg-list">
+      <view class="msg-item  clearfix" bindtap="toChat">
+        <view class="left-wrap float-left clearfix">
+          <view class="img-wrap float-left">
+            <text class="icon">2</text>
+            <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+          </view>
+          <view class="text-wrap float-left">
+            <view class="name">小饭桶</view>
+            <view class="msg-tips">请问这个产品怎么卖</view> 
+          </view>
+        </view>
+        <view class="time float-right">12:12</view>
+      </view>
+      <view class="msg-item  clearfix" bindtap="toChat">
+        <view class="left-wrap float-left clearfix">
+          <view class="img-wrap float-left">
+            <text class="icon">2</text>
+            <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+          </view>
+          <view class="text-wrap float-left">
+            <view class="name">小饭桶</view>
+            <view class="msg-tips">请问这个产品怎么卖</view> 
+          </view>
+        </view>
+        <view class="time float-right">12:12</view>
+      </view>
+      <view class="msg-item  clearfix" bindtap="toChat">
+        <view class="left-wrap float-left clearfix">
+          <view class="img-wrap float-left">
+            <text class="icon">2</text>
+            <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+          </view>
+          <view class="text-wrap float-left">
+            <view class="name">小饭桶</view>
+            <view class="msg-tips">请问这个产品怎么卖</view> 
+          </view>
+        </view>
+        <view class="time float-right">12:12</view>
+      </view>
+      <view class="msg-item  clearfix" bindtap="toChat">
+        <view class="left-wrap float-left clearfix">
+          <view class="img-wrap float-left">
+            <text class="icon">2</text>
+            <image src="http://test2.cloud-top.com.cn/1912_vw_xcx/images/m-allnewcc/m-tuku3.jpg"></image>
+          </view>
+          <view class="text-wrap float-left">
+            <view class="name">小饭桶</view>
+            <view class="msg-tips">请问这个产品怎么卖</view> 
+          </view>
+        </view>
+        <view class="time float-right">12:12</view>
+      </view>
+    </view>
+</view>

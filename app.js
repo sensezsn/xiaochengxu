@@ -1,5 +1,4 @@
 //app.js
-import vehicles from './data/vehicles.js'
 
 App({
   onLaunch: function () {
@@ -46,6 +45,6 @@ App({
   globalData: {
     header: {},
  
-    current: vehicles[0]
+    // current: vehicles[0]
   },
 })

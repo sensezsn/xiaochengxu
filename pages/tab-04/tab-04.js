@@ -1,13 +1,46 @@
-// pages/tab-04/tab-04.js
+const app = getApp();
+const navigationBarHeight = (getApp().statusBarHeight + 44) + 'px'
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    tittle: '收益',
+    navigationBarHeight, //获取padding值得
+    options: [{
+      city_id: '001',
+      city_name: '北京'
+    }, {
+      city_id: '002',
+      city_name: '上海'
+    }, {
+      city_id: '003',
+      city_name: '深圳'
+    }],
+    selected: {}
   },
-
+  change (e) {
+    this.setData({
+      selected: { ...e.detail }
+    })
+    wx.showToast({
+      title: `${this.data.selected.id} - ${this.data.selected.name}`,
+      icon: 'success',
+      duration: 1000
+    })
+  },
+  close () {
+    // 关闭select
+    this.selectComponent('#select').close()
+  },
+  toWithdrow(){
+    var url = "/detaiPage/tab-04/withdrawal/withdrawal"
+    wx.navigateTo({
+      url: url,
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -26,7 +59,9 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    this.getTabBar().setData({
+      selected: 3
+    });
   },
 
   /**

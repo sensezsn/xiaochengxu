@@ -1,1 +1,128 @@
-/* pages/tab-04/tab-04.wxss */
+
+.kehu-container{
+  padding-bottom: 260rpx;
+}
+.kehu-container .top-bg{
+  height: 200rpx;
+  background: #10cbd2;
+}
+.tab-wrap {
+  margin: -100rpx 10px 10px 10px;
+  background: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px 0;
+  border-radius: 10px;
+  border-bottom: 1px solid #efefef;
+}
+.tab-wrap .tab-item{
+  display: inline-block;
+  width: 50%;
+}
+.tab-wrap .tab-item .number{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  padding-bottom: 4px;
+}
+.tab-wrap .tab-item .tips{
+  font-size: 28rpx;
+  color: #333;
+}
+.balance-wrap{
+  padding: 10px;
+  border-bottom: 8px solid #efefef;
+}
+.balance-wrap .tittle-wrap{
+  font-size: 12px;
+  color: #333;
+}
+.balance-wrap .tittle-wrap image{
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 10px;
+}
+.balance-wrap .maney-wrap{
+  text-align: right;
+}
+.balance-wrap .maney-wrap .small-tittle{
+  font-size: 26rpx;
+  margin-top: 4px;
+  color: #919191;
+}
+.select-wrap{
+  padding: 10px;
+  background: #efefef;
+
+}
+.select-wrap .left-select{
+  width: 30%;
+}
+.select-wrap .select-current {
+  border: none;
+}
+.my-select-box {
+  position: relative;
+  width: 100%;
+  font-size: 30rpx;
+  border:none;
+  border-radius: 30px;
+  background: #fff;
+  padding-left: 10px;
+}
+
+
+.my-select-current {
+  position: relative;
+  width: 100%;
+  padding: 0 10rpx;
+  line-height: 70rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 6rpx;
+  box-sizing: border-box;
+  border:none;
+}
+
+.my-select-current::after {
+  position: absolute;
+  display: block;
+  right: 16rpx;
+  top: 30rpx;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 10rpx solid transparent;
+  border-top: 10rpx solid #999;
+}
+
+.money-list .money-item {
+  padding: 10px;
+  background: #fff;
+  border-bottom: 1px solid #efefef;
+}
+.money-list .money-item .tittle{
+  font-size: 12px;
+  color: #333;
+}
+.money-list .money-item .time{
+  font-size: 26rpx;
+  color: #b3b3b3;
+}
+.money-list .money-item .red{
+  color: #df1931;
+}
+.tab-wrap-select{
+  text-align: center;
+  margin-top: 10px;
+}
+.tab-wrap-select .tab-item{
+  width: 50%;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0;
+}
+.tab-wrap-select .tab-item.active{
+  border-bottom: 2px solid #10cbd2;
+  color: #10cbd2;
+}

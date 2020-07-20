@@ -1,13 +1,20 @@
-// pages/VehicleOverview/VehicleOverview.js
+const navigationBarHeight = (getApp().statusBarHeight + 44) + 'px'
+// 车辆数据
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    navigationBarHeight, //获取padding值得
+    tittle:"消息"
   },
 
+  toChat(){
+    wx.navigateTo({
+      url: '/detaiPage/tab-04/chat/chat',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -27,6 +34,9 @@ Page({
    */
   onShow: function () {
 
+    this.getTabBar().setData({
+      selected: 4
+    });
   },
 
   /**

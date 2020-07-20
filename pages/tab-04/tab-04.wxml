@@ -1,2 +1,68 @@
-<!--pages/tab-04/tab-04.wxml-->
-<text>pages/tab-04/tab-04.wxml</text>
+<header id='header' tittle="{{tittle}}"></header>
+<view style="{{'padding-top: ' + navigationBarHeight}}">
+  <view class="kehu-container">
+    <view class="top-bg">
+
+    </view>
+    <view class="tab-wrap clearfix">
+      <view class="tab-item float-left">
+        <view class="tips">总收益（元）</view>
+        <view class="number">1234</view>
+      </view>
+      <view class="tab-item float-right">
+        <view class="tips">本月收益（元）</view>
+        <view class="number">＋3423.0</view>
+      </view>
+    </view>
+    <view class="balance-wrap clearfix">
+      <view class="tittle-wrap float-left">
+        <image src="/image/icon/yue.png"></image>
+        <text>账户余额</text>
+      </view>
+      <view class="maney-wrap">
+        <view class="number">42,321.00</view>
+        <view class="small-tittle">以上为扣除1%服务费后余额</view>
+      </view>
+    </view>
+    <view class="tab-wrap-select clearfix">
+      <view class="tab-item float-left">任务收益</view>
+      <view class="tab-item float-right active" >任务收益</view>
+    </view>
+   <view class="select-wrap clearfix">
+      <view class="left-select float-left">
+        <select select-box="my-select-box" select-current="my-select-current" id="select" options="{{options}}" key="city_id" text="city_name" bind:change="change"></select>
+      </view>
+      <view class="select-tips float-right">34,453.00</view>
+    </view>
+    <view class="money-list">
+      <view class="money-item clearfix" bindtap="toWithdrow">
+        <view class="float-left">
+          <view class="tittle">任务［动漫IP训练营－0704］</view>
+          <view class="time">2020-07-06 10:10:11</view>
+        </view>
+        <view class="red float-right">+90.00</view>
+      </view>
+       <view class="money-item clearfix">
+        <view class="float-left">
+          <view class="tittle">任务［动漫IP训练营－0704］</view>
+          <view class="time">2020-07-06 10:10:11</view>
+        </view>
+        <view class="red float-right">+90.00</view>
+      </view>
+       <view class="money-item clearfix">
+        <view class="float-left">
+          <view class="tittle">任务［动漫IP训练营－0704］</view>
+          <view class="time">2020-07-06 10:10:11</view>
+        </view>
+        <view class="red float-right">+90.00</view>
+      </view>
+       <view class="money-item clearfix">
+        <view class="float-left">
+          <view class="tittle">任务［动漫IP训练营－0704］</view>
+          <view class="time">2020-07-06 10:10:11</view>
+        </view>
+        <view class="red float-right">+90.00</view>
+      </view>
+    </view>
+  </view>
+</view>

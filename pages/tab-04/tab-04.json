@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "收益",
+  "usingComponents": {
+    "header": "/Components/header/header",
+    "select": "/template/select/select"
+  }
 }
