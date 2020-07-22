@@ -42,12 +42,7 @@ Page({
    * 每个页面切换索引值状态
    */
   onShow: function () {
-    // this.getTabBar().setData({
-    //   selected: 0  //这个值必须引入
-    // })
-    // this.setData({
-    //   current: app.globalData.current
-    // })
+
     wx.pageScrollTo({
       scrollTop: 0,
       duration: 0
